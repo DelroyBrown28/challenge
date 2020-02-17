@@ -1,20 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,700&display=swap');
 
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
     body,
     html {
         height: 100%;
         width: 100%;
         margin: 0;
-        background-color: hsl(218, 28%, 13%)
+        background-color: hsl(218, 28%, 15%)
+    }
+
+
+    /*--TOP CONTENTS----*/
+
+
+    .topWrapper,
+    .mainContentsWrapper {
+        display: flex;
     }
 
     .topWrapper {
         position: relative;
         height: 75px;
-        display: flex;
-        border: 1px solid white;
+        
         font-family: 'Raleway', sans-serif;
 
     }
@@ -34,7 +42,7 @@
         list-style: none;
         align-self: center;
         margin: 0;
-        
+
     }
 
     li {
@@ -47,8 +55,34 @@
     .signin {
         margin-right: 0;
     }
-    
-    
+
+    /*--MAIN CONTENTS----*/
+
+    .mainContentsWrapper {
+        position: relative;
+        
+        height: 100%;
+        justify-content: center;
+
+    }
+
+    .mainImage {
+        position: absolute;
+        height: 230px;
+        top: 30px;
+        
+    }
+
+    .waveImg {
+        position: absolute;
+        top: 263px;
+        z-index: 1;
+        
+        
+    }
+
+
+
 
 
 }
