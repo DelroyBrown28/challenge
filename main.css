@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,700&display=swap');
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) {
+
+    body,
+    html {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        background-color: hsl(218, 28%, 13%)
+    }
+
+    .topWrapper {
+        position: relative;
+        height: 75px;
+        display: flex;
+        border: 1px solid white;
+        font-family: 'Raleway', sans-serif;
+
+    }
+
+    .logo {
+        position: absolute;
+        height: 30px;
+        align-self: center;
+        left: 20px;
+    }
+
+    .topNav {
+        position: absolute;
+        color: #fff;
+        padding-left: 0;
+        right: 20px;
+        list-style: none;
+        align-self: center;
+        margin: 0;
+        
+    }
+
+    li {
+        display: inline-block;
+        font-weight: 400;
+        font-size: 14px;
+        margin-right: 20px;
+    }
+
+    .signin {
+        margin-right: 0;
+    }
+    
+    
+
+
+}
